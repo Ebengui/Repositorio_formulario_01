@@ -6,6 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <h1>Formulario</h1> 
+   <form action="" method="get">
+    <label for="">Escriba nombre y apellido</label>
+    <input type="text" name="nombre_completo"id="nombre_completo">
+    <br>
+    <label for="contraseña">Escriba su contraseña</label>
+    <input type="password" name="contraseña" id="contraseña">
+    <br>
+<label for="genero">Selecciones el genero</label>  
+<input type="radio" name="genero" id="genro" value="Mujer"> Mujer
+<input type="radio" name="genero" id="genro" value="Hombre"> Hombre
+<input type="radio" name="genero" id="genro" value="Hijo"> Hijo
+<br>
+<label for="idioma">Selecciones los idiomas que habla</label>
+<input type="checkbox" name="Castellano" id="Castellano"> Castellano
+<input type="checkbox" name="Ingles" id="Ingles"> Ingles
+<input type="checkbox" name="Frances" id="Frances"> Frances
+<br>
+<label for="estudios">Selecccione el nivel de sus estudios </label>
+<select name="estudios" id="estudios">
+<option value="ESO">ESO</option>
+<option value="Barcillerato">Barcillerato</option>
+<option value="FP">Formacion profesional</option>
+<option value="Grado">Grado</option>
+   </select>
+   <br>
+   <input type="subnit" value="Enviar informacion">
+   <input type="reset" value="Limpiar informacion">
+</form>
 </body>
 </html>
